@@ -1,0 +1,17 @@
+{
+    "code": 500,
+    "message": "Internal Service Error",
+    "error": {
+        "code": 3080004,
+        "name": "tx_cpu_usage_exceeded",
+        "what": "Transaction exceeded the current CPU usage limit imposed on the transaction",
+        "details": [
+            {
+                "message": "billed CPU time (192 us) is greater than the maximum billable CPU time for the transaction (93 us)",
+                "file": "transaction_context.cpp",
+                "line_number": 487,
+                "method": "validate_account_cpu_usage"
+            }
+        ]
+    }
+}

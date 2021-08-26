@@ -1,0 +1,96 @@
+{
+    "account_name": "teamgreymass",
+    "head_block_num": 37648408,
+    "head_block_time": "2020-09-24T20:52:06.500",
+    "privileged": false,
+    "last_code_update": "1970-01-01T00:00:00.000",
+    "created": "2020-02-26T22:28:14.000",
+    "core_liquid_balance": "511617.3405 EOS",
+    "ram_quota": 5489,
+    "net_weight": 10000,
+    "cpu_weight": 9999,
+    "net_limit": {
+        "used": 105,
+        "available": 38792,
+        "max": 38897
+    },
+    "cpu_limit": {
+        "used": 366,
+        "available": 28902,
+        "max": 29268
+    },
+    "ram_usage": 4560,
+    "permissions": [
+        {
+            "perm_name": "active",
+            "parent": "owner",
+            "required_auth": {
+                "threshold": 1,
+                "keys": [
+                    {
+                        "key": "EOS6L7gzEV7JXcCrgDeAe6v63Z7bMWttd4UQeWdKKCr6twDYxDQXZ",
+                        "weight": 1
+                    }
+                ],
+                "accounts": [],
+                "waits": []
+            }
+        },
+        {
+            "perm_name": "claim",
+            "parent": "active",
+            "required_auth": {
+                "threshold": 1,
+                "keys": [
+                    {
+                        "key": "EOS6DLD9HxMcwn73U41jjdGsNe9vDFRKB26um6qTAqrtYcJFtED4C",
+                        "weight": 1
+                    }
+                ],
+                "accounts": [],
+                "waits": []
+            }
+        },
+        {
+            "perm_name": "owner",
+            "parent": "",
+            "required_auth": {
+                "threshold": 1,
+                "keys": [
+                    {
+                        "key": "EOS8a3i6vXFJwSZTdaUYrf7kScnZWCgEy7wdWXcAj4W9qgfgpHMu9",
+                        "weight": 1
+                    }
+                ],
+                "accounts": [],
+                "waits": []
+            }
+        }
+    ],
+    "total_resources": {
+        "owner": "teamgreymass",
+        "net_weight": "1.0000 EOS",
+        "cpu_weight": "0.9999 EOS",
+        "ram_bytes": 4089
+    },
+    "self_delegated_bandwidth": {
+        "from": "teamgreymass",
+        "to": "teamgreymass",
+        "net_weight": "1.0000 EOS",
+        "cpu_weight": "0.9999 EOS"
+    },
+    "refund_request": null,
+    "voter_info": {
+        "owner": "teamgreymass",
+        "proxy": "",
+        "producers": [],
+        "staked": 19999,
+        "last_vote_weight": "0.00000000000000000",
+        "proxied_vote_weight": "0.00000000000000000",
+        "is_proxy": 0,
+        "flags1": 0,
+        "reserved2": 0,
+        "reserved3": "0 "
+    },
+    "rex_info": null
+}
